@@ -60,10 +60,11 @@ public class Socio implements Serializable {
         this.idSocio = idSocio;
     }
 
-    public Socio(Integer idSocio, String nombres, String apellidos, String direccion) {
+    public Socio(Integer idSocio, String nombres, String apellidos, Integer edad, String direccion) {
         this.idSocio = idSocio;
         this.nombres = nombres;
         this.apellidos = apellidos;
+        this.edad = edad;
         this.direccion = direccion;
     }
 
